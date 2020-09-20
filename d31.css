@@ -1,0 +1,25 @@
+body {
+	background-color: gray;
+}
+
+.bar:hover {
+	fill: yellow;
+}
+#svg {
+	margin: 0, auto;
+	fill: 'yellow';
+}
+
+#tooltip {	
+	position: absolute;			
+	text-align: center;			
+	width: 100px;								
+	padding: 2px;				
+	font: 12px sans-serif;		
+	background: white;	
+	border: 1px solid black;		
+	border-radius: 2px;			
+	pointer-events: none;		
+	color: black;
+	opacity: 0;
+}
